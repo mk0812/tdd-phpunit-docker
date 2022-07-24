@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 class Dollar
 {
-    public int $amount;
+    private int $amount;
 
     public function __construct(int $amount)
     {
